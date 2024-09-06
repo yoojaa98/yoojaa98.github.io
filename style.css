@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    border-bottom: 1px solid rgb(116, 108, 108);
+    padding: 10px;
+}
+
+
+.logo {
+    max-height: 250px;
+}
+
+.nav-link {
+    color: #46685b;
+    margin-right: 15px;
+    font-family: "Merriweather", serif;
+    font-size: larger;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+#menu {
+
+    padding: 50px 0;
+}
+
+#menu h2 {
+    font-family: "Merriweather", serif;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #46685b;
+}
+
+#menu img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px;
+}
+
+#ubicacion {
+    padding: 50px 0;
+}
+
+#ubicacion h2 {
+    font-family: "Merriweather", serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #46685b;
+}
+
+#ubicacion p {
+    font-size: 1.2rem;
+    font-family:"Merriweather", serif;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+#ubicacion iframe {
+    border-radius: 10px; 
+}
+
+#horarios {
+    padding: 50px 0;
+}
+
+#horarios h2 {
+    font-family: "Merriweather", serif;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #46685b;
+}
+
+#horarios img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    margin: 0 auto; 
+    display: block;
+    border-radius: 10px; 
+}
+
+.cafe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px; /* Ajusta esta altura según sea necesario */
+  }
+  
+  .cafe p {
+    color:#213435; /* Color del texto */
+    font-size: 20px; /* Tamaño de la fuente */
+    font-family: "Merriweather", serif; /* Fuente */
+    font-weight: bold; /* Negrita */
+  }
+
+  .footer {
+    color: #213435; /* Color del texto */
+    font-family:  "Merriweather", serif;
+    text-align: center;
+    padding: 1em;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    box-sizing: border-box; /* Asegura que el padding no aumente el ancho total */
+}
+
+@media (max-width: 768px) {
+    .footer {
+        font-size: 0.9em;
+        padding: 0.5em; 
+    }
+}
+
+@media (max-width: 768px) {
+    .cafe {
+        font-size: 0.9em; 
+        padding: 0.5em;
+}
+}
